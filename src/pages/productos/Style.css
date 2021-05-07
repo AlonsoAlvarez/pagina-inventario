@@ -1,0 +1,26 @@
+.bgProductos {
+    background-image: url('../../assets/bg3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.bgProductos .rowFiltro {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: start;
+    align-items: center;
+    padding-left: 3rem;
+}
+
+.bgProductos .rowFiltro .espacio{
+    width: 3rem;
+    background-color: aqua;
+}
+
+.bgProductos .rowFiltro .center {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}

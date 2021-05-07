@@ -1,0 +1,23 @@
+.colRama {
+    padding-left: .5rem;
+    padding-right: .5rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+    h3{
+        color: #333;
+    }
+
+    a{
+        padding-bottom: 0.4rem;
+        color: #333;
+    }
+    
+    a:hover{
+        padding-bottom: 0.4rem;
+        color: rgb(8, 8, 8);
+        font-weight: 600;
+    }
+}

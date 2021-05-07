@@ -1,0 +1,117 @@
+.bgNosotros {
+    background-image: url('../../assets/bg1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.bgNosotros .row {
+    margin-top: 1rem;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgNosotros .center {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgNosotros a .direccion {
+    background-color: rgba(204, 204, 204, 0.76);
+    color: black;
+    font-size: larger;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.bgNosotros a .direccion:hover {
+    background-color: rgba(58, 57, 57, 0.76);
+    color: #ccc;
+    font-size: larger;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.bgNosotros .direccion .row {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@supports(object-fit: cover){
+    .bgNosotros .row .imagenTarjeta img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .bgNosotros .row .imagenTarjeta {
+        margin: 1rem;
+        width: 40rem;
+        height: 38rem;
+        background: #ccc;
+        overflow: hidden;
+    }
+
+    .bgNosotros .tarjeta {
+        margin-top: 1rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        padding: 10px 10px;
+        width: 25rem;
+        background-color: rgba(51, 50, 50, 0.76);
+        color: whitesmoke;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .bgNosotros .row .imagenTarjeta {
+        margin: 3rem;
+        width: 28rem;
+        height: 28rem;
+        background: #ccc;
+        overflow: hidden;
+    }
+
+    .bgNosotros .tarjeta {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        padding: 10px 10px;
+        width: 15rem;
+        background-color: rgba(51, 50, 50, 0.76);
+        color: whitesmoke;
+    }
+}
+
+@supports(object-fit: cover){
+    .bgNosotros .direccion .row .imagenLocation img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+
+.bgNosotros .direccion .row .imagenLocation {
+    width: 5rem;
+    height: 5rem;
+    background: rgba(88, 88, 88, 0);
+    overflow: hidden;
+}
+
+.bgNosotros .quienes {
+    background: rgba(219, 219, 219, 0.863);
+}

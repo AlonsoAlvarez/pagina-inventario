@@ -1,0 +1,134 @@
+.bgProducto {
+    background-image: url('../../assets/bg4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.colImagenes {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rowGaleria {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgProducto .row {
+    margin-top: 1rem;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgProducto .row .imgProducto img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.bgProducto .row .info h5{
+    font-size: large;
+}
+
+.bgProducto .row .info h4{
+    color: rgb(216, 49, 49);
+}
+
+.bgProducto .row .info:hover h4{
+    font-size: large;
+}
+
+@media screen and (max-width: 899px){
+    .imgGaleria {
+        width: 11rem;
+    }
+    .bgProducto .row .imgProducto {
+        margin: 1rem;
+        width: 15rem;
+        overflow: hidden;
+    }
+    .bgProducto .row .info {
+        width: 20rem;
+        margin: 1rem;
+        background-color: #ccc;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .imgGaleria {
+        width: 11rem;
+    }
+    .bgProducto .row .imgProducto {
+        margin: 1rem;
+        width: 13rem;
+        overflow: hidden;
+    }
+    .bgProducto .row .info {
+        width: 20rem;
+        margin: 1rem;
+        background-color: #ccc;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 735px){
+    .imgGaleria {
+        width: 11rem;
+    }
+    .bgProducto .row .imgProducto {
+        margin: 1rem;
+        width: 11rem;
+        overflow: hidden;
+    }
+
+    .bgProducto .row .info {
+        width: 12rem;
+        margin: 1rem;
+        background-color: #ccc;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .imgGaleria {
+        width: 11rem;
+    }
+    .bgProducto .row .imgProducto {
+        margin: 1rem;
+        width: 7rem;
+        overflow: hidden;
+    }
+
+    .bgProducto .row .info {
+        width: 8rem;
+        margin: 1rem;
+        background-color: #ccc;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .imgGaleria {
+        width: 11rem;
+    }
+    .bgProducto .row .imgProducto {
+        margin: 1rem;
+        width: 18rem;
+        overflow: hidden;
+    }
+    .bgProducto .row .info {
+        width: 22rem;
+        margin: 1rem;
+        background-color: #ccc;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,79 @@
+.bgHome {
+    background-image: url('../../assets/bg5.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+@media screen and (max-width: 900px) {
+    .bgHome .col .imgHome {
+        margin: 1rem;
+        width: 25rem;
+        background: #ccc;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .bgHome .col .imgHome {
+        margin: 1rem;
+        width: 20rem;
+        background: #ccc;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .bgHome .col .imgHome {
+        margin: 1rem;
+        width: 17rem;
+        background: #ccc;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .bgHome .col .imgHome {
+        margin: 1rem;
+        width: 15rem;
+        background: #ccc;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .bgHome .col .imgHome {
+        margin: 1rem;
+        width: 30rem;
+        background: #ccc;
+        overflow: hidden;
+    }
+}
+
+.bgHome .col {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgHome .col .imgHome img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.bgHome .col .imgHome video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.bgHome .col .imgsGrup {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}

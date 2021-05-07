@@ -1,0 +1,87 @@
+.cardCategoria {
+    background-color: rgba(52, 53, 53, 0.781);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+@media screen and (max-width: 999px) {
+    .cardCategoria .imgCategoria {
+        width: 10rem;
+        background: #ccc;
+        overflow: hidden;
+    }
+    .cardCategoria .datos {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        direction: none;
+        width: 10rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .cardCategoria .imgCategoria {
+        width: 7rem;
+        background: #ccc;
+        overflow: hidden;
+    }
+    .cardCategoria .datos {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        direction: none;
+        width: 8rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .cardCategoria .imgCategoria {
+        width: 12rem;
+        background: #ccc;
+        overflow: hidden;
+    }
+
+    .cardCategoria .datos {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        direction: none;
+        width: 13rem;
+    }
+}
+
+
+.cardCategoria .imgCategoria img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.cardCategoria .datos h2{
+    color: whitesmoke;
+}
+
+.cardCategoria .datos h3{
+    color: #ccc;
+}
+
+a{
+    text-decoration: none;
+}

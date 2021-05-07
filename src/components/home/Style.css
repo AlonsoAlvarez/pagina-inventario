@@ -1,0 +1,42 @@
+@media screen and (max-width: 599px) {
+    .cardImagen {
+        margin: 1rem;
+        width: 10rem;
+        background: #ccc;
+        overflow: hidden;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .cardImagen {
+        margin: 1rem;
+        width: 8rem;
+        background: #ccc;
+        overflow: hidden;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+    .cardImagen {
+        margin: 1rem;
+        width: 15rem;
+        background: #ccc;
+        overflow: hidden;
+    }
+}
+
+.cardImagen img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.cardImagen video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}

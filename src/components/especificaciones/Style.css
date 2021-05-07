@@ -1,0 +1,15 @@
+.especificaciones {
+    width: 15rem;
+    background-color: rgba(209, 209, 209, 0.883);
+}
+
+.especificaciones button{
+    width: 15rem;
+    height: 3rem;
+    font-size: medium;
+    border: none;
+}
+
+.especificaciones button:hover{
+    background-color: rgb(204, 204, 204);
+}
